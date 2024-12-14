@@ -3,6 +3,16 @@
     background-color: darkgray;
 }
 
+.panel{
+    position: relative;
+    /* position: absolute; */
+    top: 20px;
+    left: 0;
+    border: 1px solid red;
+    width: 300px;
+    
+}
+
 .navContainerOne{
     display: flex;
     justify-content: space-between;
