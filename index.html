@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <title>BBCWebsite</title>
 </head>
 <body>
     <header>
         <section>
             <nav class="navContainerOne">
-                <div>
-                    <button id="accordion" class="fa fa-bars"></button>
-                    <button id="accordion" class="fa fa-search searchBtn"></button>
-                    <div class="panel">
+                <div class="dropdown" data-dropdown>
+                    <button id="accordion" class="fa fa-bars link" data-dropdown-button></button>
+                    <button id="accordion" class="fa fa-search searchBtn link" data-dropdown-button></button>
+                    <div class="dropdown-menu">
                         <a href="index.html">Home</a>
                         <a>News</a>
                         <a>Sport</a>
